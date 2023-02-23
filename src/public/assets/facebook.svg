@@ -1,0 +1,7 @@
+<svg id="Grupo_63" data-name="Grupo 63" xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <g id="Elipse_30" data-name="Elipse 30" fill="none" stroke="#134392" stroke-width="2">
+    <circle cx="19" cy="19" r="19" stroke="none"/>
+    <circle cx="19" cy="19" r="18" fill="none"/>
+  </g>
+  <path id="facebook" d="M1.87,15.07V8H0V5.453H1.87V3.278C1.87,1.569,2.974,0,5.519,0A15.453,15.453,0,0,1,7.312.1l-.06,2.378s-.777-.008-1.625-.008c-.918,0-1.065.423-1.065,1.125V5.453H7.325L7.2,8H4.562V15.07H1.87" transform="translate(15.338 11)" fill="#134392"/>
+</svg>

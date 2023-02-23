@@ -1,0 +1,188 @@
+/*--Colors---*/
+$azul: #134392;
+$rojo: #FF0044;
+
+// --GENERAL--
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*--BUTTONS--*/
+.btn-main {
+  background-color: $azul;
+  color: #fff;
+  width: 100%;
+  max-width: 340px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  font-size: 12px;
+  transition-duration: .3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $rojo;
+  }
+}
+
+/*--ANNOUNCEMENT BAR--*/
+
+.announcement-bar{
+  background-color: $azul;
+  color: white;
+  display:block; 
+  padding: 8px 16px;
+  text-align:center;
+  a{
+    color: inherit;
+    text-decoration: none;
+
+    &:hover{
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      color: $rojo;
+    }
+  }
+}
+
+// --NAVBAR--
+.navbar {
+  position:relative;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  height: 70px;
+}
+
+.navbar.fixed{
+  position: fixed;
+}
+
+.navbar .logo {
+  width: 160px;
+  transition-duration: .3s;
+}
+
+.navbar .logo:hover {
+  transform: scale(1.05);
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #4787C7;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #EE8094;
+}
+.navbar .navbar-nav .nav-item .nav-link.cupon {
+  color: #134392 !important;
+  border-bottom: 3px solid #134392;
+  font-weight: 500;
+  cursor: pointer;
+}
+.navbar .navbar-nav .nav-item .nav-link.cupon:hover {
+  color: #EE8094 !important;
+  border-bottom: 3px solid #EE8094;
+}
+
+.navbar .rrss-res {
+  display: none;
+}
+
+.navbar .rrss-res  {
+  display: none;
+  padding: 0;
+  border-top: 1px solid #ffffff2b;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.navbar .rrss-res p  {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.navbar .rrss-res ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .rrss-res li  {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.navbar .rrss-res li img {
+  filter: invert(1);
+}
+
+@media (max-width: 992px) {
+
+  .navbar {
+      width: 100vw;
+  }
+
+  .navbar .navbar-brand {
+      margin-left: 10px;
+  }
+
+  .navbar .navbar-toggler {
+      margin-right: 10px;
+  }
+
+  .navbar .container {
+      padding: 0;
+  }
+
+  .navbar .navbar-collapse {
+      background-color: #134392;
+      margin-top: 10px;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+      color: #fff;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link.cupon {
+      color: #fff !important;
+      border-bottom: 3px solid #fff;
+      width: fit-content;
+      margin: 0 auto;
+  }
+
+  .navbar .btn-large {
+      border: 2px solid #fff;
+      width: 90%;
+  }
+
+  .navbar .logo {
+      width: 120px;
+  }
+  
+  .navbar .btn-large {
+      font-size: 12px;
+      margin-top: 40px;
+  }
+
+  .navbar .navbar-collapse {
+      padding: 100px 0;
+      text-align: center;
+  }
+
+  .navbar .nav-item {
+      margin-bottom: 20px;
+  }
+
+  .navbar .rrss-res {
+      display: block;
+  }
+
+}
