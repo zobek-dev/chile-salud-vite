@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+  <g id="Grupo_64" data-name="Grupo 64" transform="translate(-1382 -1031)">
+    <rect id="Rectángulo_107" data-name="Rectángulo 107" width="74" height="74" rx="14" transform="translate(1382 1031)" fill="#d2e8ff"/>
+    <g id="qr-code" transform="translate(1401 1050)">
+      <path id="Trazado_46" data-name="Trazado 46" d="M27,31.5V29.25h2.25V31.5Z" fill="#275da7"/>
+      <path id="Trazado_47" data-name="Trazado 47" d="M20.25,27V24.75H22.5V27Z" fill="#275da7"/>
+      <path id="Trazado_48" data-name="Trazado 48" d="M20.25,33.75h4.5V31.5H22.5V29.25H20.25Z" fill="#275da7"/>
+      <path id="Trazado_49" data-name="Trazado 49" d="M29.25,29.25v-4.5H31.5v4.5Z" fill="#275da7"/>
+      <path id="Trazado_50" data-name="Trazado 50" d="M31.5,29.25h2.25v4.5h-4.5V31.5H31.5Z" fill="#275da7"/>
+      <path id="Trazado_51" data-name="Trazado 51" d="M29.25,22.5V20.25h4.5v4.5H31.5V22.5Z" fill="#275da7"/>
+      <path id="Trazado_52" data-name="Trazado 52" d="M27,22.5H24.75V27H22.5v2.25H27Z" fill="#275da7"/>
+      <path id="Trazado_53" data-name="Trazado 53" d="M20.25,22.5V20.25h4.5V22.5Z" fill="#275da7"/>
+      <path id="Trazado_54" data-name="Trazado 54" d="M6.75,24.75h4.5v4.5H6.75Z" fill="#275da7"/>
+      <path id="Trazado_55" data-name="Trazado 55" d="M15.75,33.75H2.25V20.25h13.5ZM4.5,31.5h9v-9h-9Z" fill="#275da7"/>
+      <path id="Trazado_56" data-name="Trazado 56" d="M24.75,6.75h4.5v4.5h-4.5Z" fill="#275da7"/>
+      <path id="Trazado_57" data-name="Trazado 57" d="M33.75,15.75H20.25V2.25h13.5ZM22.5,13.5h9v-9h-9Z" fill="#275da7"/>
+      <path id="Trazado_58" data-name="Trazado 58" d="M6.75,6.75h4.5v4.5H6.75Z" fill="#275da7"/>
+      <path id="Trazado_59" data-name="Trazado 59" d="M15.75,15.75H2.25V2.25h13.5ZM4.5,13.5h9v-9h-9Z" fill="#275da7"/>
+    </g>
+  </g>
+</svg>

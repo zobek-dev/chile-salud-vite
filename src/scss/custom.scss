@@ -1,10 +1,37 @@
 /*--Colors---*/
 $azul: #134392;
 $rojo: #FF0044;
+$azul-claro: #4787C7;
 
 // --GENERAL--
-body{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Montserrat', sans-serif;
+}
+
+//--SIZE
+.text-xl {
+  font-size: 20px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-base {
+  font-size: 16px;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.text-xs {
+  font-size: 12px;
 }
 
 /*--BUTTONS--*/
@@ -30,17 +57,18 @@ body{
 
 /*--ANNOUNCEMENT BAR--*/
 
-.announcement-bar{
+.announcement-bar {
   background-color: $azul;
   color: white;
-  display:block; 
+  display: block;
   padding: 8px 16px;
-  text-align:center;
-  a{
+  text-align: center;
+
+  a {
     color: inherit;
     text-decoration: none;
 
-    &:hover{
+    &:hover {
       text-decoration: underline;
       text-underline-offset: 4px;
       color: $rojo;
@@ -50,14 +78,14 @@ body{
 
 // --NAVBAR--
 .navbar {
-  position:relative;
+  position: relative;
   width: 100%;
   top: 0;
   z-index: 10;
   height: 70px;
 }
 
-.navbar.fixed{
+.navbar.fixed {
   position: fixed;
 }
 
@@ -75,15 +103,18 @@ body{
   padding-bottom: 5px;
   font-size: 14px;
 }
+
 .navbar .navbar-nav .nav-item .nav-link:hover {
   color: #EE8094;
 }
+
 .navbar .navbar-nav .nav-item .nav-link.cupon {
   color: #134392 !important;
   border-bottom: 3px solid #134392;
   font-weight: 500;
   cursor: pointer;
 }
+
 .navbar .navbar-nav .nav-item .nav-link.cupon:hover {
   color: #EE8094 !important;
   border-bottom: 3px solid #EE8094;
@@ -93,7 +124,7 @@ body{
   display: none;
 }
 
-.navbar .rrss-res  {
+.navbar .rrss-res {
   display: none;
   padding: 0;
   border-top: 1px solid #ffffff2b;
@@ -102,7 +133,7 @@ body{
   margin-top: 40px;
 }
 
-.navbar .rrss-res p  {
+.navbar .rrss-res p {
   color: #fff;
   margin-top: 20px;
 }
@@ -115,7 +146,7 @@ body{
   padding: 0;
 }
 
-.navbar .rrss-res li  {
+.navbar .rrss-res li {
   list-style: none;
   margin: 0 10px;
 }
@@ -127,62 +158,491 @@ body{
 @media (max-width: 992px) {
 
   .navbar {
-      width: 100vw;
+    width: 100vw;
   }
 
   .navbar .navbar-brand {
-      margin-left: 10px;
+    margin-left: 10px;
   }
 
   .navbar .navbar-toggler {
-      margin-right: 10px;
+    margin-right: 10px;
   }
 
   .navbar .container {
-      padding: 0;
+    padding: 0;
   }
 
   .navbar .navbar-collapse {
-      background-color: #134392;
-      margin-top: 10px;
+    background-color: #134392;
+    margin-top: 10px;
   }
 
   .navbar .navbar-nav .nav-item .nav-link {
-      color: #fff;
+    color: #fff;
   }
 
   .navbar .navbar-nav .nav-item .nav-link.cupon {
-      color: #fff !important;
-      border-bottom: 3px solid #fff;
-      width: fit-content;
-      margin: 0 auto;
+    color: #fff !important;
+    border-bottom: 3px solid #fff;
+    width: fit-content;
+    margin: 0 auto;
   }
 
   .navbar .btn-large {
-      border: 2px solid #fff;
-      width: 90%;
+    border: 2px solid #fff;
+    width: 90%;
   }
 
   .navbar .logo {
-      width: 120px;
+    width: 120px;
   }
-  
+
   .navbar .btn-large {
-      font-size: 12px;
-      margin-top: 40px;
+    font-size: 12px;
+    margin-top: 40px;
   }
 
   .navbar .navbar-collapse {
-      padding: 100px 0;
-      text-align: center;
+    padding: 100px 0;
+    text-align: center;
   }
 
   .navbar .nav-item {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 
   .navbar .rrss-res {
-      display: block;
+    display: block;
+  }
+
+}
+
+.hero.container {
+  @media(max-width:982px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .hero-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    background: url('assets/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 360px;
+    padding: 30px;
+
+    @media(min-width: 982px) {
+      height: 500px;
+      padding: 50px 100px;
+    }
+
+    h5 {
+      color: $azul;
+      font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 8px;
+
+      @media(min-width: 982px) {
+        font-size: 40px;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      color: $azul-claro;
+      margin-bottom: 16px;
+
+      @media(min-width: 982px) {
+        font-size: 20px;
+      }
+    }
+
+    ;
+  }
+}
+
+//--DESCUENTOS--
+
+.seccion-descuentos {
+  margin-top: 50px;
+  padding: 50px;
+  position: relative;
+}
+
+.seccion-descuentos h5 {
+  text-align: center;
+  font-size: 30px;
+  color: #275DA7;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.seccion-descuentos>p {
+  text-align: center;
+  font-size: 18px;
+  color: #4787C7;
+}
+
+.seccion-descuentos .box-paso {}
+
+.seccion-descuentos .box-paso img {
+  width: 60px;
+}
+
+.seccion-descuentos .box-paso h6 {
+  color: #134392;
+  font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.seccion-descuentos .box-paso p {
+  height: 60px;
+  color: #275DA7;
+}
+
+.seccion-descuentos .box-paso button {}
+
+.seccion-descuentos .img-fondo {
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+  width: 100%;
+  max-width: 300px;
+  z-index: -1;
+}
+
+@media (max-width: 992px) {
+  .seccion-descuentos .box-paso {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+// ---SECCION FARMACIAS--
+.seccion-farmacias {
+  margin-top: 100px;
+  background-color: #F7F8FD;
+  padding: 50px;
+}
+
+.seccion-farmacias h6 {
+  color: #275DA7;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.seccion-farmacias p {
+  color: #275DA7;
+  font-size: 20px;
+}
+
+.seccion-farmacias .box-imgs {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.seccion-farmacias .box-imgs .img {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+}
+
+.seccion-farmacias .box-imgs .img-small {
+  width: 200px;
+  position: absolute;
+  bottom: 50px;
+  right: -60px;
+}
+
+@media (max-width: 992px) {
+
+  .seccion-farmacias {
+    padding: 10px;
+  }
+
+  .seccion-farmacias h6 {
+    text-align: center;
+  }
+
+  .seccion-farmacias .box-imgs .img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .seccion-farmacias .box-imgs {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .seccion-farmacias .box-imgs .img-small {
+    left: calc(50% - 100px);
+    right: inherit;
+    bottom: 10px;
+  }
+
+}
+
+// PRODUCTOS
+
+.seccion-productos {
+  margin-top: 100px;
+  padding: 50px;
+}
+
+.seccion-productos h6 {
+  color: #275DA7;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.seccion-productos p {
+  color: #275DA7;
+  font-size: 20px;
+}
+
+.seccion-productos .box-imgs {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.seccion-productos .box-imgs .img {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+}
+
+.seccion-productos .box-imgs .img-small {
+  width: 200px;
+  position: absolute;
+  bottom: 50px;
+  right: -60px;
+}
+
+@media (max-width: 992px) {
+  .seccion-productos {
+    padding: 10px;
+  }
+
+  .seccion-productos h6 {
+    text-align: center;
+  }
+
+  .seccion-productos p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .seccion-productos .box-imgs {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .seccion-productos .box-imgs .img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .seccion-productos .box-imgs .img-small {
+    left: calc(50% - 100px);
+    right: inherit;
+    bottom: 10px;
+  }
+}
+
+// ---FORMULARIO 
+
+.seccion-formulario {
+  background-color: #F7F8FD;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.seccion-formulario form {
+  padding: 50px 100px;
+}
+
+.seccion-formulario form .form-title .mini {
+  width: 40px;
+  margin-right: 20px;
+  margin-left: -50px;
+}
+
+.seccion-formulario form .form-title h6 {
+  color: #134392;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.seccion-formulario form label {
+  color: #134392;
+  margin: 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.seccion-formulario form label img {
+  margin-right: 10px;
+}
+
+.seccion-formulario form input {
+  border-radius: 30px;
+  border: none;
+}
+
+.seccion-formulario form input::placeholder {
+  color: #134392;
+  font-weight: 100;
+}
+
+.seccion-formulario .box-doc {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.seccion-formulario .box-doc .pdf {
+  position: absolute;
+  width: 100%;
+  max-width: 340px;
+  left: -50px;
+  bottom: 100px;
+}
+
+.seccion-formulario .box-btn {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 992px) {
+  .seccion-formulario form {
+    padding: 20px;
+  }
+
+  .seccion-formulario .box-doc {
+    height: 400px;
+  }
+
+  .seccion-formulario .box-doc .pdf {
+    left: calc(50% - 170px);
+    bottom: -40px;
+  }
+
+  .seccion-formulario form .form-title .mini {
+    margin-left: 0;
+  }
+
+  .seccion-formulario .box-btn {
+    height: 300px;
+  }
+
+}
+
+.title-form {
+  color: #275DA7;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+// FOOTER
+
+footer {
+  background-color: #F7F8FD;
+}
+
+footer .top-footer {
+  padding: 50px;
+}
+
+footer .top-footer .logo {
+  width: 160px;
+}
+
+footer .top-footer ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+footer .top-footer ul li {
+  list-style: none;
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+footer .top-footer ul li a {
+  text-decoration: none;
+  color: #134392;
+  font-size: 13px;
+}
+
+footer .top-footer .rrss {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .top-footer .rrss li {
+  color: #134392;
+  font-weight: 600;
+}
+
+footer .sub-footer {
+  padding: 10px;
+  background-color: #134392;
+}
+
+footer .sub-footer p {
+  color: #fff;
+  font-size: 14px;
+}
+
+footer .red {
+  transition-duration: .3s;
+}
+
+footer .red:hover {
+  filter: invert(1);
+  transform: scale(1.05);
+}
+
+@media (max-width: 992px) {
+
+  footer .top-footer {
+    padding: 20px;
+  }
+
+  footer .top-footer .box-logo {
+    display: none;
+  }
+
+  footer .top-footer .box-menu ul {
+    flex-direction: column;
+    margin-bottom: 100px;
   }
 
 }

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+  <g id="Grupo_63" data-name="Grupo 63" transform="translate(-1022 -1031)">
+    <rect id="Rectángulo_107" data-name="Rectángulo 107" width="74" height="74" rx="14" transform="translate(1022 1031)" fill="#d2e8ff"/>
+    <g id="Grupo_52" data-name="Grupo 52" transform="translate(-313.554 35.188)">
+      <path id="document" d="M25.61,6.565H9.565V35.089H30.958V11.914H25.61ZM9.565,3H27.393l7.131,7.131V35.089a3.565,3.565,0,0,1-3.565,3.565H9.565A3.565,3.565,0,0,1,6,35.089V6.565A3.565,3.565,0,0,1,9.565,3Zm3.565,16.045H27.393V22.61H13.131Zm0,7.131H27.393v3.565H13.131Z" transform="translate(1350.554 1010.871)" fill="#134392"/>
+      <path id="download" d="M7.1,21.7H22.5a1.1,1.1,0,1,1,0,2.2H7.1a1.1,1.1,0,1,1,0-2.2Zm8.8-6.408,3.567-3.567,1.556,1.556L14.8,19.506,8.577,13.282l1.556-1.556L13.7,15.294V3h2.2V15.294Z" transform="translate(1375.411 1037.829)" fill="#134392" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

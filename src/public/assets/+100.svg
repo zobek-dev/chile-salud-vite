@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="255" height="95" viewBox="0 0 255 95">
+  <defs>
+    <filter id="Rectángulo_95" x="0" y="0" width="255" height="95" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.031"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_61" data-name="Grupo 61" transform="translate(-1359 -1984)">
+    <g transform="matrix(1, 0, 0, 1, 1359, 1984)" filter="url(#Rectángulo_95)">
+      <g id="Rectángulo_95-2" data-name="Rectángulo 95" transform="translate(9 1)" fill="#fff" stroke="#e7e7e7" stroke-width="1">
+        <rect width="237" height="77" rx="20" stroke="none"/>
+        <rect x="0.5" y="0.5" width="236" height="76" rx="19.5" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectángulo_101" data-name="Rectángulo 101" width="81" height="6" rx="3" transform="translate(1400 2030)" fill="#275da7"/>
+    <rect id="Rectángulo_102" data-name="Rectángulo 102" width="64" height="6" rx="3" transform="translate(1400 2041)" fill="#4787c7"/>
+    <text id="Sweet_Ice_Cream_TAG:H2_" data-name="Sweet Ice Cream [TAG:H2]" transform="translate(1400 2021)" fill="#275da7" font-size="17" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">+100 Medicamentos</tspan></text>
+  </g>
+</svg>
