@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'
 window.addEventListener('DOMContentLoaded', ()=>{
   const links = document.querySelectorAll('.navbar-nav .nav-item .nav-link')
   const navBar = document.querySelector('#navbarSupportedContent') 
-  const header = document.querySelector('.navbar')
+  const header = document.querySelector('.header')
 
   //aos init
   AOS.init()

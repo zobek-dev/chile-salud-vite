@@ -230,10 +230,6 @@ h6 {
     align-items: flex-start;
     justify-content: center;
     position: relative;
-    background: url('assets/banner1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     width: 100%;
     height: 360px;
     padding: 30px;
@@ -367,7 +363,8 @@ h6 {
 @media (max-width: 992px) {
 
   .seccion-farmacias {
-    padding: 10px;
+    padding: 60px 10px 0;
+    margin-top: 0;
   }
 
   .seccion-farmacias h6 {
@@ -411,10 +408,18 @@ h6 {
   font-size: 20px;
 }
 
-.seccion-productos .box-imgs {
+.seccion-productos .box-imgs{
   width: 400px;
   height: 400px;
   position: relative;
+}
+
+@media(max-width: 450px){
+  .seccion-productos .box-imgs{
+    width: 100%;
+    height: auto;
+    max-width: 400px
+  }
 }
 
 .seccion-productos .box-imgs .img {
@@ -596,6 +601,8 @@ footer .top-footer ul li a {
   text-decoration: none;
   color: #134392;
   font-size: 13px;
+  white-space: nowrap;
+  display:block;
 }
 
 footer .top-footer .rrss {
@@ -641,8 +648,53 @@ footer .red:hover {
   }
 
   footer .top-footer .box-menu ul {
-    flex-direction: column;
-    margin-bottom: 100px;
+    flex-direction: column; 
   }
 
 }
+
+.box-btn h6{
+  color: $azul;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.header{
+  position:relative;
+  width:100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.seccion-farmacias .box-imgs .img-medium {
+  width: 300px;
+  position: absolute;
+  bottom: 50px;
+  right: 0px;
+}
+
+#seccion-productos p {
+  color: $azul-claro;
+}
+
+#seccion-formulario p{
+  color: $azul-claro;
+  text-align: center;
+  font-size: 16px;
+
+  @media(min-width: 982px){
+    text-align: left;
+    font-size: 20px;
+  }
+}
+
+#seccion-formulario h6{
+  text-align:center;
+
+  @media(min-width: 982px){
+    text-align: left;
+  }
+}
+
